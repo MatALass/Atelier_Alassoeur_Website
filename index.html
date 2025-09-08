@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="img/logo.webp">
+
+</head>
+<body>
+    <div class="left">
+        <a href="https://www.instagram.com/atelier.alassoeur/#" target="_blank">
+            <img src="img/logo_insta.png" alt="Instagram" class ="insta-logo">
+        </a>
+
+        <div class="left-mid">
+
+            <div class="header-content">
+                <img src="img/logo_alassoeur.JPG" alt="logo" class="logo">
+            </div>
+
+            <div class="mid-content">
+                <img src="img/croquis.png" alt="Croquis" class="croquis">
+                <p>Site en construction</p>
+            </div>
+
+            <div class="bottom-content">
+                <div class="address">
+                    <p>14 place St Cyran, 36000 Châteauroux</p>
+                    <p>02 54 36 20 76</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="slideshow">
+            <img class="slide active" src="img/IMG0.JPG" alt="Projet 0">
+            <img class="slide" src="img/IMG1.JPG" alt="Projet 1">
+            <img class="slide" src="img/IMG2.JPG" alt="Projet 2">
+            <img class="slide" src="img/IMG3.JPG" alt="Projet 3">
+            <img class="slide" src="img/IMG4.JPG" alt="Projet 4">
+            <img class="slide" src="img/IMG5.JPG" alt="Projet 5">
+            <img class="slide" src="img/IMG6.JPG" alt="Projet 6">
+            <img class="slide" src="img/IMG7.JPG" alt="Projet 7">
+            <img class="slide" src="img/IMG8.JPG" alt="Projet 8">
+            <img class="slide" src="img/IMG9.JPG" alt="Projet 9">
+            <img class="slide" src="img/IMG10.JPG" alt="Projet 10">
+            <img class="slide" src="img/IMG11.JPG" alt="Projet 11">
+        </div>
+    </div>
+
+    <script>
+        let index = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function changeSlide() {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }
+
+        setInterval(changeSlide, 4000);
+    </script>
+
+</body>
+</html>
