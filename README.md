@@ -3,6 +3,7 @@ This project is a lightweight web presentation built with HTML, CSS, and a set o
 It can be used to showcase sketches, photos, and logos in a clean and accessible way.
 
 ## 📂 Project Structure
+.
 ├── index.html       # Main webpage
 ├── style.css        # Stylesheet
 ├── arborescence.txt # Project tree description
