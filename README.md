@@ -3,22 +3,11 @@ This project is a lightweight web presentation built with HTML, CSS, and a set o
 It can be used to showcase sketches, photos, and logos in a clean and accessible way.
 
 ## 📂 Project Structure
-C:.
-│ index.html # Main webpage
-│ style.css # Stylesheet
-│ arborescence.txt # Project structure description
-│
-+---.idea # IDE configuration files
-│ .gitignore
-│ modules.xml
-│ Nouveau dossier.iml
-│ workspace.xml
-│
----img # Image assets
-croquis.png
-IMG0.jpg … IMG11.jpg
-logo_alassoeur.JPG
-logo_insta.png
+├── index.html       # Main webpage
+├── style.css        # Stylesheet
+├── arborescence.txt # Project tree description
+├── .idea/           # IDE config files
+└── img/             # Image assets (sketches, photos, logos)
 
 
 ## 🚀 Getting Started
